@@ -26,7 +26,6 @@ app.get("/", (req, res) => {
 	return res.json(1);
   });
 // listen
-
 app.listen(PORT, () => {
     console.log(`Our app is running on port ${ PORT }`);
 });

@@ -16,7 +16,7 @@ $ npm or yarn install
 
 ### Running the project
 
-$ node app.js
+$ npm or yarn start
 
 ### Testing the project
 
