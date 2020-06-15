@@ -2,6 +2,7 @@ const docs = require("../app")
 const request = require('supertest')
 
 jest.setTimeout(10000); 
+
   describe("GET /documents", () => {
     test("ONLY POST METHOD", async () => {
       const response = await request(docs).get("/documents");
